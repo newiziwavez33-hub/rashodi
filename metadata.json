@@ -1,0 +1,6 @@
+{
+  "name": "Личные расходы",
+  "description": "Приложение для удобного учета личных расходов и доходов на русском языке без регистрации.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
