@@ -66,7 +66,8 @@ class TransactionViewModel(application: Application) : AndroidViewModel(applicat
             // Search query filter
             val matchesQuery = if (query.isBlank()) true else {
                 transaction.title.contains(query, ignoreCase = true) ||
-                transaction.category.contains(query, ignoreCase = true)
+                transaction.category.contains(query, ignoreCase = true) ||
+                transaction.amount.toString().contains(query)
             }
 
             // Date filter
